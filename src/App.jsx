@@ -1,9 +1,11 @@
 import AdvanceForm from "./Advance_form.jsx"
+import MultiValueForm from "./multivalueform.jsx"
 function App() {
 
-  return (
-
+  return (<>
+   <MultiValueForm></MultiValueForm>
     <AdvanceForm></AdvanceForm>
+    </>
   )
 
 
